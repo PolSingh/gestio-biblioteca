@@ -27,7 +27,7 @@ public class Prestec {
         this.dataRetorn = dataPrestec.plusWeeks(2);
     }
 
-    // Getter per obtenir l'usuari del préstec
+    // Getter per obtenir l'usuari del prestec
     public Usuari getUsuari() {
         return usuari;
     }
