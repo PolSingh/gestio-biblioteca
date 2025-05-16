@@ -16,7 +16,7 @@ public class GestorBiblioteca {
     /**
      * Mètode per prestar un llibre a un usuari.
      * Si el llibre no està prestat, es crea un nou préstec i s'afegeix a la llista.
-     * També es marca el llibre com a prestat i es relaciona amb l’usuari.
+     * També es marca el llibre com a prestat i es relaciona amb el usuari.
      *
      * @param usuari L'usuari que demana el llibre
      * @param llibre El llibre que es vol prestar
