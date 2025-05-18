@@ -14,7 +14,7 @@ public class Biblioteca {
         llibres.add(llibre);
     }
 
-    // Busca un llibre pel seu títol (sense diferenciar majúscules/minúscules)
+    // Busca un llibre pel seu titol (sense diferenciar majúscules/minúscules)
     public Llibre buscarLlibre(String titol) {
         for (Llibre llibre : llibres) {
             if (llibre.getTitol().equalsIgnoreCase(titol)) {
