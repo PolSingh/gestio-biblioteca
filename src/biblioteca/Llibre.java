@@ -5,7 +5,7 @@ public class Llibre {
     // Autor del llibre
     private String autor;
 
-    // Estat del llibre: true si està en préstec, false si està disponible
+    // Estat del llibre: true si està en préstec, false si esta disponible
     private boolean prestat;
 
     /**

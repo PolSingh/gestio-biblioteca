@@ -108,7 +108,7 @@ public class Main {
         scanner.close();
     }
 
-    // Mètode auxiliar per trobar un usuari pel nom
+    // Metode auxiliar per trobar un usuari pel nom
     private static Usuari trobarUsuari(List<Usuari> usuaris, String nom) {
         for (Usuari u : usuaris) {
             if (u.getNom().equalsIgnoreCase(nom)) {
